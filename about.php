@@ -25,10 +25,8 @@
     <?php include("./templates/_call.php"); ?>
     <!--КОРЗИНА-->
     <?php include("./templates/_cart.php"); ?>
-
     <!--HEADER-->
     <?php include("./templates/_header.php"); ?>
-    <!--КОНЕЦ HEADER-->
 
     <!--SECTION О КОМПАНИИ-->
     <section class="about__section">
