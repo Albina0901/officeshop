@@ -1,18 +1,15 @@
     <?php
         $pageTitle = "Главная страница | Интернет-магазин OFFICESHOP";
     ?>
-   <?php include("./templates/_avt.php"); ?>
+    <?php include("./templates/_avt.php"); ?>
     <!--ОБРАТНЫЙ ЗВОНОК-->
     <?php include("./templates/_call.php"); ?>
     <!--КОРЗИНА-->
     <?php include("./templates/_cart.php"); ?>
-
     <!--HEADER-->
     <?php include("./templates/_header.php"); ?>
-    <!--КОНЕЦ HEADER-->
 
     <!--SECTION_1-->
-
     <section class="index__section1">
         <img src="./img/1_1.jpg" alt="img" class="index__section1__img">
         <div class="index__section1__text">
@@ -33,10 +30,7 @@
         </div>
     </section>
 
-    <!--КОНЕЦ SECTION_1-->
-
     <!--SECTION_2-->
-
     <section class="index__section2">
         <div class="container">
             <div class="head">
@@ -89,10 +83,7 @@
         </div>
     </section>
 
-    <!--КОНЕЦ SECTION_2-->
-
     <!--SECTION_3-->
-
     <section class="index__section3">
         <div class="container">
             <div class="head">
@@ -142,8 +133,5 @@
 
     <!--FOOTER-->
     <?php include("./templates/_footer.php"); ?>
-
-    
-
 </body>
 </html>
