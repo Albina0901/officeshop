@@ -93,7 +93,7 @@ if(isset($_GET['action'])) {
             }
             else {
                 ?>
-                <a href="./functions/_reg.php" class="cart__btn">
+                <a href="./reg.php" class="cart__btn">
                     Регистрация
                 </a>
             <?php
