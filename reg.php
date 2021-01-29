@@ -3,7 +3,7 @@
     {
         session_start();
     }
-    require('config.php');
+    require('./functions/config.php');
     $pageTitle = "Регистрация | Интернет-магазин OFFICESHOP";
 ?>
     <!--ФОРМА ВХОДА-->
@@ -32,7 +32,7 @@
                     
                 ?>
             </div>
-            <form action="_reg.php" class="form__reg-avt" method="post">
+            <form action="./functions/_reg.php" class="form__reg-avt" method="post">
                 <div class="form__reg-avt-block">
                     <div class="form__reg-avt-block1">
                         <p class="form__wrapper-parag">Имя<span class="star">*</span></p>

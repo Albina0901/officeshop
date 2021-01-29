@@ -1,6 +1,6 @@
 <?php
  session_start();
- require('./config.php');
+ require('./functions/config.php');
     $pageTitle = "Оформление заказа | Интернет-магазин OFFICESHOP";
 ?>
 

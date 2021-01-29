@@ -32,7 +32,7 @@
                         +7 (902) 628-31-14<br>+7 (902) 629-31-14
                     </li>
                     <li class="footer__link">officeshop@mail.com</li>
-                    <form action="./email.php" method="post" class="form__email">
+                    <form action="./functions/email.php" method="post" class="form__email">
                         <input name='emaill' type="text" placeholder="Введите e-mail" class="input__email">
                         <button type="submitt" class="email__btn">
                             <img src="./img/email.png" alt="">

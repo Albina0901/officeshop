@@ -3,7 +3,7 @@
  session_start();
 
    
-    include("./config.php");
+    include("./functions/config.php");
 ?> 
 <div onclick="show__avt('visible')" id="gray__avt"></div>
 <div id="form__avt">
@@ -12,7 +12,7 @@
         <i onclick="show__avt('hidden')" class="close fas fa-times"></i>
     </div>
     
-    <form  action="./avt.php" class="form__wrapper" method="POST">
+    <form  action="./functions/avt.php" class="form__wrapper" method="POST">
         <p class="form__wrapper-parag">E-mail<span class="star">*</span></p>
             <input type="email" name="email" class="form__input1" required>
         <p class="form__wrapper-parag">Пароль<span class="star">*</span></p>

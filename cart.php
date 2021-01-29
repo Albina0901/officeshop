@@ -1,6 +1,6 @@
 <?php
     session_start();
-    require('./config.php');
+    require('./functions/config.php');
     $pageTitle = "Оформление заказа | Интернет-магазин OFFICESHOP";
     $cart_email = $_SESSION['user_email'];
     $cart_dost = $_POST['cart_dost'];

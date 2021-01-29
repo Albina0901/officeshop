@@ -26,14 +26,14 @@
             $db->query("INSERT INTO `Users` (`name`, `surname`, `patronymic`, `email`, `password`, `telephone`) VALUES 
             ('$name', '$surname', '$patronymic', '$email', '$password', '$telephone')");
             $_SESSION['message'] = 'Вы успешно зарегистрировались!';
-            header('Location: reg.php');
+            header('Location: ./reg.php');
         } else {
             $_SESSION['message'] = 'Такая учетная запись уже существует!';
-            header('Location: reg.php');
+            header('Location: ./reg.php');
         }
         
         } else {
             $_SESSION['message'] = 'Пароли не совпадают!';
-            header('Location: reg.php');
+            header('Location: ./reg.php');
         }
     ?>

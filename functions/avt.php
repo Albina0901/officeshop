@@ -17,11 +17,11 @@ $password = md5($_POST['password']);
       
    if($num < 1) { 
       $_SESSION['message'] = 'Ошибка!';
-      header('Location: index.php');
+      header('Location: ./index.php');
       }
       elseif($_POST['email'] == 'admin@admin.ru') {
          $_SESSION['admin'] = 1;
-         header('Location: admin.php');
+         header('Location: ./admin.php');
       }
       
        else{
@@ -29,7 +29,7 @@ $password = md5($_POST['password']);
          $_SESSION['user_email'] = $email;
          $_SESSION['user_id'] = $num['id_user'];
          $_SESSION['user_name'] = $num['name'];
-         header('Location: index.php');
+         header('Location: ./index.php');
          }
       }
    catch (Exception $e)

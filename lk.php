@@ -4,7 +4,7 @@ session_start();
 if($_SESSION['user'] == 1 )
                 {
     $pageTitle = "Личный кабинет | Интернет-магазин OFFICESHOP";
-    require('config.php');
+    require('./functions/config.php');
     $lk_email = $_SESSION['user_email'];
     $info_name = $_POST['info_name'];
     $info_surname = $_POST['info_surname'];
@@ -32,7 +32,7 @@ if($_SESSION['user'] == 1 )
                 <div class="heading">
                     Личный кабинет
                 </div>
-                <a href="session_stop.php" class="lk__close">
+                <a href="./functions/session_stop.php" class="lk__close">
                     Выйти
                 </a>
             </div>

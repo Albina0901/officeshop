@@ -1,6 +1,6 @@
 <?php
 session_start();
-include('./config.php');
+include('./functions/config.php');
 
 //ДОБАВЛЕНИЕ ТОВАРА В КОРЗИНУ
 if(isset($_POST['addToCart'])) {
@@ -93,7 +93,7 @@ if(isset($_GET['action'])) {
             }
             else {
                 ?>
-                <a href="./_reg.php" class="cart__btn">
+                <a href="./functions/_reg.php" class="cart__btn">
                     Регистрация
                 </a>
             <?php

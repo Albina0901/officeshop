@@ -1,8 +1,8 @@
 <?php
 session_start();
     $pageTitle = "Бумажные изделия | Интернет-магазин OFFICESHOP";
-    require("./config.php");
-    include("sort.php");
+    require("./functions/config.php");
+    include("./functions/sort.php");
 ?>
     <!--ФОРМА ВХОДА-->
     <?php include("./templates/_avt.php"); ?>

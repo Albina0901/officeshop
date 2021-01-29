@@ -1,6 +1,6 @@
 <?php
 session_start();
-include('./config.php');
+include('./functions/config.php');
 
 echo $_SESSION['message'];
 unset($_SESSION['message']);

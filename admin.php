@@ -3,7 +3,7 @@ session_start();
 if($_SESSION['admin'] == 1 )
     {
     $pageTitle = "Админ панель | Интернет-магазин OFFICESHOP";
-    require('config.php');
+    require('./functions/config.php');
 ?>
     <!DOCTYPE html>
     <html lang="en">
@@ -26,7 +26,7 @@ if($_SESSION['admin'] == 1 )
                 <div class="admin__panel-header">
                     <a href="index.php" class="admin__panel__header-index">Главная</a>
                     <div class="admin__panel__header-menu">
-                        <a href="session_stop.php" class="admin__panel__menu-link admin__close">Выйти</a>
+                        <a href="./functions/session_stop.php" class="admin__panel__menu-link admin__close">Выйти</a>
                     </div>
                 </div>
                 <div class="cat__section-block1">

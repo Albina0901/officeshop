@@ -10,11 +10,11 @@
         $letter .= 'Почта: '.$_POST['email'].'\r\n';
         mail('all@officeshop72.ru', $theme , $letter, $headers);
         echo $_SESSION['message'] = 'все гуд';
-        header('Location: index.php');
+        header('Location: ./index.php');
 
     } else {
         echo $_SESSION['message'] = 'все печально';
-        header('Location: index.php');
+        header('Location: ./index.php');
     }
 
 ?>
