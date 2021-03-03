@@ -1,1 +1,1 @@
-# officeshop
+# Thesis (refactoring required)
